@@ -1,3 +1,84 @@
 @charset "utf-8";
 /* CSS Document */
+@font-face {
+	font-family: Arial;
+}
+img { 
+	border: 0px 0px 0px 0px;
+}
+body {
+	padding-bottom: 0px;
+	margin: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+INPUT:focus {
+	OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium
+}
+FORM {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+#head_page{
+	BORDER-BOTTOM: red 0px solid; BORDER-LEFT: red 0px solid; MARGIN: auto; WIDTH: 1102px; 
+	height:5px;	BACKGROUND:#333; OVERFLOW: hidden; 	BORDER-TOP: red 0px solid; BORDER-RIGHT: red 0px solid
+}
+#container_outer {
+	BORDER-BOTTOM: red 0px solid; BORDER-LEFT: red 0px solid; MARGIN: auto; WIDTH: 1002px; 
+	BACKGROUND:url(../images/bg_shadow.png) repeat-y 13px 0px; OVERFLOW: hidden; 
+	BORDER-TOP: red 0px solid; BORDER-RIGHT: red 0px solid
+}
+#container_inner {
+	MARGIN: auto; WIDTH: 955px
+}
 
+#top_head{
+	/*width: 954px;*/
+	height: 96px;
+}
+#top_head #logo{
+	WIDTH: 281px; 
+	FLOAT: left;
+	margin-left:13px;
+}
+#top_head #logo_right{
+	WIDTH: 320px; PADDING-RIGHT: 25px; FLOAT: right
+}
+
+/*  chrome menu js  */
+.chromestyle {
+	BORDER-BOTTOM: #96bc43 1px solid; BACKGROUND-COLOR: #7cafd9; WIDTH: 952px; FONT: bold 11px tahoma, Verdana; MARGIN-LEFT: 2px; OVERFLOW: hidden
+}
+.chromestyle:after {
+	DISPLAY: block; HEIGHT: 0px; VISIBILITY: hidden; MARGIN-LEFT: 0px; CLEAR: both; CONTENT: "."
+}
+.chromestyle UL {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 7px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 950px; PADDING-RIGHT: 0px; BACKGROUND: url(../images/button-bg2.gif) repeat-x; BORDER-TOP: #96bc43 1px solid; PADDING-TOP: 7px
+}
+.chromestyle UL LI {
+	MARGIN: 0px; DISPLAY: inline
+}
+.chromestyle UL LI A {
+	PADDING-BOTTOM: 8px; MARGIN: 0px; PADDING-LEFT: 18px; PADDING-RIGHT: 18px; COLOR: #ffffff; TEXT-DECORATION: none; PADDING-TOP: 7px
+}
+.chromestyle UL LI A:hover {
+	BORDER-BOTTOM: #000000 1px solid; PADDING-BOTTOM: 7px; BACKGROUND-COLOR: #e1e1e1; PADDING-LEFT: 18px; WIDTH: 1px; PADDING-RIGHT: 18px; HEIGHT: 25px; COLOR: #000000; PADDING-TOP: 7px
+}
+.chromestyle UL LI A.selected {
+	BORDER-BOTTOM: #000000 1px solid; PADDING-BOTTOM: 7px; BACKGROUND-COLOR: #e1e1e1; PADDING-LEFT: 18px; WIDTH: 1px; PADDING-RIGHT: 18px; HEIGHT: 25px; COLOR: #000000; PADDING-TOP: 7px
+}
+.dropmenudiv {
+	Z-INDEX: 100; BORDER-BOTTOM: #bbb 0px solid; POSITION: absolute; BORDER-LEFT: #bbb 0px solid; PADDING-BOTTOM: 10px; MARGIN: -2px 0px 0px; WIDTH: 200px; FONT: bold 11px/20px tahoma, Verdana; VISIBILITY: hidden; COLOR: #777777; BORDER-TOP: #bbb 0px solid; BORDER-RIGHT: #bbb 0px solid
+}
+.dropmenudiv A {
+	BORDER-BOTTOM: #cecece 0px solid; TEXT-INDENT: 27px; WIDTH: auto; DISPLAY: block; BACKGROUND: #e1e1e1; COLOR: #000; CLEAR: both; TEXT-DECORATION: none
+}
+* HTML .dropmenudiv A {
+	WIDTH: 100%
+}
+.dropmenudiv A:hover {
+	BACKGROUND-COLOR: #2655a4; COLOR: #fff; TEXT-DECORATION: none
+}
+/*__________________*/
