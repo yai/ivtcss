@@ -37,6 +37,7 @@ FORM {
 #top_head{
 	/*width: 954px;*/
 	height: 96px;
+	background:url(../images/top_banner.png) no-repeat;
 }
 #top_head #logo{
 	WIDTH: 281px; 
@@ -82,3 +83,22 @@ FORM {
 	BACKGROUND-COLOR: #2655a4; COLOR: #fff; TEXT-DECORATION: none
 }
 /*__________________*/
+#banner_slogan{
+	height:285px;
+	background:url(../images/banner_slogan.png) no-repeat;
+}
+
+#body_content{
+}
+#body_content #col_left{
+	float:left;
+	width:660px;
+	height:500px;
+}
+#body_content #col_right{
+	float:left;
+	width:280px;
+	height:500px;
+}
+
+
