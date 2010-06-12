@@ -42,7 +42,7 @@ FORM {
 #foot_banner{
 	BORDER-BOTTOM: red 0px solid; BORDER-LEFT: red 0px solid; MARGIN: auto; WIDTH: 1002px; 
 	OVERFLOW: hidden; 	BORDER-TOP: red 0px solid; BORDER-RIGHT: red 0px solid;
-	height:50px;
+	height:220px;
 }
 #top_head{
 	/*width: 954px;*/
@@ -164,10 +164,9 @@ FORM {
 
 #content1{
 	width: 635px;
-	height: 620px;
+	height: 270px;
 	background:url(../images/bg_content.png) no-repeat;
 }
-
 #content1_topic1{
 	width: 635px;
 }
@@ -177,7 +176,7 @@ FORM {
 	height: 155px;
 	float:left;
 	margin-left: 15px;
-	
+	margin-top: 10px
 }
 
 #content1 #content1_right{
@@ -189,12 +188,11 @@ FORM {
 	padding-top: 10px;
 	padding-left: 5px;
 	padding-right: 10px;
+	margin-top: 10px;
 }
-
-#content1 #content1_bottom{
-	width: 605px;
+#content1_bottom{
+	width: 610px;
 	/*height: 350px;*/
-	float:left;
 	margin-left: 15px;
 	margin-top: 10px;
 	padding-right: 10px;
@@ -209,21 +207,66 @@ FORM {
 /*content2*/
 #content2{
 	width: 635px;
-	float:left;
 }
+
 #content2_topic1{
 	width: 635px;
-	float:left;
+	height: 54px;
 }
+
 #content2 #content2_l{
-	float: left;
-	width: 347px;
+	/*float: left;*/
+	width: 322px;
+	padding-right: 298px;
+	padding-top: 20px;
+	height: 249px;
+	line-height: 17px;
+	padding-left: 15px;
+	background:url(../images/topic2_icon_bg.png);
 }
+
 #content2 #content2_r{
 	width: 288px;
+	height: 264px;
 	float: left;
 }
 
+/*content3*/
+#content3{
+	width: 635px;
+	margin-top: 5px;
+	line-height: 20px;
+}
 
+#content3 #content3_topic{
+	width: 635px;
+	height: 94px;
+}
 
+#content3 #content3_body{
+	width: 302px;
+	height: 205px;
+	background:url(../images/card.png) no-repeat;
+	padding-left: 318px;
+	padding-right: 15px;
+	padding-top: 5px;
+	line-height: 20px;
+}
+
+#content4{
+	margin-top: 20px;
+	width: 635px;
+}
+
+#content4 #content4_topic{
+	height: 148px;
+	background:url(../images/midden_banner.png);
+}
+
+#content4 #content4_body{
+	padding-left: 15px;
+	padding-right: 20px;
+	margin-top: 30px;
+	line-height: 17px;
+}
 
