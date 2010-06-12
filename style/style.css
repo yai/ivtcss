@@ -124,6 +124,56 @@ FORM {
 	height: 320px;
 	margin-bottom: 15px;
 }
+#take_a_tour #tour_topic{
+	width: 275px;
+	height: 130px;
+	background:url(../images/logo_take-a-tour.png);
+}
+#take_a_tour #tour_box{
+	width: 250px;
+	margin-left: 15px;
+	margin-right: 10px;
+	height: 150px;
+}
+
+#take_a_tour #tour_box .box_label{
+	width: 65px;
+	height: 19px;
+	padding-top:5px;
+	padding-left:10px;
+	float:left;
+	font-weight:bold;
+}
+
+#take_a_tour #tour_box .box_line{
+	margin-bottom: 5px;
+	height:24px;
+
+}
+.input-fils {
+	BORDER-BOTTOM: #61b9f5 1px solid; 
+	BORDER-LEFT: #61b9f5 1px solid; 
+	padding-top: 3px;
+	WIDTH: 160px; 
+	height:19px;
+	FONT-FAMILY: Arial, Helvetica, sans-serif; 
+	FONT-SIZE: 14px; 
+	BORDER-TOP: #61b9f5 1px solid; 
+	FONT-WEIGHT: bold; 
+	BORDER-RIGHT: #61b9f5 1px solid; 
+}
+
+#tour_cmd{
+	height:31px;
+	width:37;
+	margin-left: 120px;
+}
+#tour_bar{
+	height:38px;
+	width:275px;
+	background:url(../images/take_tour_repreat_bar.png) repeat-x;
+}
+
 #col_right #why_bkk{
 	width: 275px;
 	height: 281px;
