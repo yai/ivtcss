@@ -57,16 +57,43 @@ FORM {
 #top_head #logo_right{
 	WIDTH: 320px; PADDING-RIGHT: 25px; FLOAT: right
 }
+#logo_right .news_latter{
+	float:right;
+	color:#FFF;
+	display:block;
+	margin-left:10px;
+	padding-left:15px;
+	padding-right:15px;
+	font-size:12px; 
+	height:15px;
+	padding-top:3px;
+	padding-bottom:2px;
+	background:#313131;
+}
+#logo_right .member_login{
+	background:#96bc43;
+	float:right;
+	color:#FFF;
+	display:block;
+	margin-left:10px;
+	margin-right:10px;
+	padding-left:20px;
+	padding-right:20px;
+	font-size:12px; 
+	height:15px;
+	padding-top:3px;
+	padding-bottom:2px;
+}
 
 /*  chrome menu js  */
 .chromestyle {
-	BORDER-BOTTOM: #96bc43 1px solid; BACKGROUND-COLOR: #7cafd9; WIDTH: 952px; FONT: bold 11px tahoma, Verdana; MARGIN-LEFT: 2px; OVERFLOW: hidden
+	BORDER-BOTTOM: #96bc43 1px solid; BACKGROUND-COLOR: #299ce1; WIDTH: 952px; FONT: bold 11px tahoma, Verdana; MARGIN-LEFT: 2px; OVERFLOW: hidden
 }
 .chromestyle:after {
 	DISPLAY: block; HEIGHT: 0px; VISIBILITY: hidden; MARGIN-LEFT: 0px; CLEAR: both; CONTENT: "."
 }
 .chromestyle UL {
-	TEXT-ALIGN: left; PADDING-BOTTOM: 7px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 950px; PADDING-RIGHT: 0px; BACKGROUND: url(../images/button-bg2.gif) repeat-x; BORDER-TOP: #96bc43 1px solid; PADDING-TOP: 7px
+	TEXT-ALIGN: left; PADDING-BOTTOM: 7px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 950px; PADDING-RIGHT: 0px; BACKGROUND:url(../images/navigator_bar.png)  repeat-x; BORDER-TOP: #96bc43 1px solid; PADDING-TOP: 7px
 }
 .chromestyle UL LI {
 	MARGIN: 0px; DISPLAY: inline
@@ -189,16 +216,62 @@ FORM {
 	height: 296px;
 	margin-bottom: 10px;
 }
+
 #col_right #distibutor{
 	width: 275px;
 	height: 421px;
 	margin-bottom: 10px;
+	background:#000;
 }
+
+#distibutor .distibutor_banner{
+	width: 275px;
+	height: 96px;
+	background:url(../images/logo_distributor_banner.png) no-repeat;
+}
+
+#distibutor .distibutor_body{
+	width: 255px;
+	height: 130px;
+	margin-top: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#distibutor .distibutor_body .distibutor_pic{
+	width: 80px;
+	height: 110px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	float:left;
+}
+#distibutor .distibutor_body .distibutor_text{
+	width: 155px;
+	height: 120px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	color:#FFF;
+	font-size:10px;
+	line-height:10px;
+	float:left;
+}
+.distibutor_name{
+	color:#FFF;
+	font-weight:bold;
+	height:15px;
+	display:block; 
+	margin-top:10px;
+	margin-bottom:7px;
+	font-size:12px;
+}
+
 #col_right #currently_operational{
 	width: 275px;
 	height: 236px;
 	margin-bottom: 10px;
 }
+
 #col_right #joinnow{
 	width: 275px;
 	height: 251px;
