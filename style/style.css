@@ -57,6 +57,12 @@ FORM {
 #top_head #logo_right{
 	WIDTH: 320px; PADDING-RIGHT: 25px; FLOAT: right
 }
+
+#logo_right a:link, a:visited, a:active, a:hover{
+	color:#FFF;
+	text-decoration:none;
+}
+
 #logo_right .news_latter{
 	float:right;
 	color:#FFF;
@@ -117,7 +123,7 @@ FORM {
 	WIDTH: 100%
 }
 .dropmenudiv A:hover {
-	BACKGROUND-COLOR: #2655a4; COLOR: #fff; TEXT-DECORATION: none
+	BACKGROUND-COLOR: #299ce1; COLOR: #fff; TEXT-DECORATION: none
 }
 /*__________________*/
 #banner_slogan{
@@ -290,6 +296,15 @@ FORM {
 	height: 270px;
 	background:url(../images/bg_content.png) no-repeat;
 }
+
+.content1_1col{
+	width: 610px;
+	padding-right: 10px;
+	padding-top: 20px;
+	text-align:justify;
+	line-height: 17px;
+	padding-left: 15px;
+}
 #content1_topic1{
 	width: 635px;
 }
@@ -303,14 +318,15 @@ FORM {
 }
 
 #content1 #content1_right{
-	width: 356px;
+	width: 346px;
 	height: 145px;
 	float:left;
 	margin-left: 10px;
-	line-height: 17px;
+	line-height: 18px;
+	text-align:justify;
 	padding-top: 10px;
 	padding-left: 5px;
-	padding-right: 10px;
+	padding-right: 20px;
 	margin-top: 10px;
 }
 #content1_bottom{
@@ -319,7 +335,8 @@ FORM {
 	margin-left: 15px;
 	margin-top: 10px;
 	padding-right: 10px;
-	line-height: 17px;
+	line-height: 18px;
+	text-align:justify;
 }
 
 .hilight_font{
@@ -339,11 +356,12 @@ FORM {
 
 #content2 #content2_l{
 	/*float: left;*/
-	width: 322px;
-	padding-right: 298px;
+	width: 312px;
+	padding-right: 308px;
 	padding-top: 20px;
 	height: 249px;
-	line-height: 17px;
+	line-height: 18px;
+	text-align:justify;
 	padding-left: 15px;
 	background:url(../images/topic2_icon_bg.png);
 }
@@ -388,8 +406,100 @@ FORM {
 
 #content4 #content4_body{
 	padding-left: 15px;
-	padding-right: 20px;
+	padding-right: 15px;
 	margin-top: 30px;
-	line-height: 17px;
+	line-height: 18px;
+	text-align:justify;
 }
 
+/*about*/
+#about{
+	width: 635px;
+	height: 285px;
+	background:url(../images/bg_content.png) no-repeat;
+}
+
+#about #content1_about{
+	width: 278px;
+	height: 175px;
+	float:left;
+	margin-left: 15px;
+	margin-top: 10px
+}
+#about #content1_about_right{
+	width: 317px;
+	height: 165px;
+	float:left;
+	margin-left: 10px;
+	line-height: 18px;
+	padding-top: 10px;
+	padding-left: 5px;
+	padding-right: 10px;
+	margin-top: 10px;
+}
+
+#about_content2{
+	width: 635px;
+}
+
+.about_content2_topic1{
+	width: 635px;
+	height: 54px;
+}
+
+.about_content2_story{
+	/*float: left;*/
+	width: 610px;
+	margin-right: 10px;
+	margin-left: 15px;
+	margin-bottom: 15px;
+	padding-top: 15px;
+	line-height: 18px;
+	text-align: justify;
+}
+.about_content2_story ul li{
+	background:url(../images/ok.png) no-repeat;
+	display:block;
+	list-style:none;
+	padding-left:30px;
+	line-height: 20px;
+}
+
+/*vision*/
+#vision{
+	width: 635px;
+	height: 700px;
+	background:url(../images/bg_content.png) no-repeat;
+	line-height: 18px;
+	text-align:justify;
+}
+
+.vision_warp{
+	width: 635px;
+	float:left;
+}
+
+.vision_topic{
+	width: 635px;
+	float:left;
+}
+
+.vision_left{
+	width: 199px;
+	height: 155px;
+	float:left;
+	margin-left: 25px;
+	margin-top: 20px
+}
+
+.vision_right{
+	width: 376px;
+	height: 145px;
+	float:left;
+	margin-left: 10px;
+	line-height: 20px;
+	padding-top: 10px;
+	padding-left: 5px;
+	padding-right: 10px;
+	margin-top: 20px;
+}
