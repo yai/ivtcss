@@ -457,6 +457,37 @@ FORM {
 	line-height: 18px;
 	text-align: justify;
 }
+
+#list_global{
+	/*float: left;*/
+	width: 615px;
+	float:left;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-bottom: 15px;
+	padding-top: 15px;
+	line-height: 18px;
+	text-align: justify;
+}
+.colum_global_list{
+	margin:0;
+	padding:0;
+}
+.colum_global{
+	float:left;
+	width:150px;	
+}
+.colum_global_left{
+	float:left;
+	width:150px;	
+	margin-left: 20px;
+}
+.colum_global ul li{
+	width: 100px;
+	float:left;
+	font-size:12px;
+}
+
 .about_content2_story ul li{
 	background:url(../images/ok.png) no-repeat;
 	display:block;
@@ -482,6 +513,14 @@ FORM {
 .vision_topic{
 	width: 635px;
 	float:left;
+}
+
+.vision_body_text{
+	width: 199px;
+	height: 155px;
+	margin-left: 25px;
+	margin-top: 20px;
+	margin-right: 10px;
 }
 
 .vision_left{
